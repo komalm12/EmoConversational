@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Coverage reports
+coverage/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Debug logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log

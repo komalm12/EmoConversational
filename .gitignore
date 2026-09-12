@@ -1,0 +1,60 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+dist/
+build/
+
+# Vite
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.swp
+*.swo
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Backend
+backend/node_modules/
+backend/dist/
+
+# Model
+model/__pycache__/
+model/.venv/
+model/models/
+model/.env
+
+# Ignore coverage
+coverage/
+
+# Ignore test results
+*.test.js
+*.test.ts
+
+# Ignore local config
+backend/config/local.js
+backend/config/local.ts
+
+# Ignore HTML temp files
+*.html.tmp

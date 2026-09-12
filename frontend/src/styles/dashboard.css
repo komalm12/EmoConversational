@@ -1,0 +1,28 @@
+.dashboard-card {
+  @apply cursor-pointer rounded-3xl border border-white/60 bg-white/80 p-6 transition-all duration-300;
+}
+
+.dashboard-card:hover {
+  @apply -translate-y-1 bg-white shadow-xl;
+  border-color: rgba(31, 29, 26, 0.1);
+}
+
+.card-chat:hover {
+  @apply border-peach/40 shadow-peach/10;
+}
+
+.card-profile:hover {
+  @apply border-sage/40 shadow-sage/10;
+}
+
+.card-settings:hover {
+  @apply border-sky/40 shadow-sky/10;
+}
+
+.card-icon {
+  @apply mb-4 flex h-14 w-14 items-center justify-center rounded-2xl text-2xl transition-transform duration-300;
+}
+
+.dashboard-card:hover .card-icon {
+  @apply scale-110 rotate-3;
+}
